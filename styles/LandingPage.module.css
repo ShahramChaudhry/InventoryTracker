@@ -1,0 +1,35 @@
+.fullScreen {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #f8f9f8;
+  margin: 0; /* Ensure there's no margin */
+  padding: 0; /* Ensure there's no padding */
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+  margin: 0; /* Ensure there's no margin */
+  padding: 0; /* Ensure there's no padding */
+}
+
+.svgImage {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.link {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}

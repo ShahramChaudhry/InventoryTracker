@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9f8;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 5vh;
+    text-align: center;
+  }
+  
+  .tableContainer {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* Ensures text is centered */
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .table th:nth-child(1),
+  .table td:nth-child(1) {
+    width: 20%;
+  }
+  
+  .table th:nth-child(2),
+  .table td:nth-child(2) {
+    width: 60%;
+  }
+  
+  .table th:nth-child(3),
+  .table td:nth-child(3) {
+    width: 20%;
+  }
+  
